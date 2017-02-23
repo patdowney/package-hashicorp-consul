@@ -1,4 +1,4 @@
 {
-  "syslog": true,
+  "enable_syslog": true,
   "data_dir": "/var/lib/consul"
 }
