@@ -12,7 +12,9 @@ rvm:
 env:
 - PACKAGE_TARGET=deb
 - PACKAGE_TARGET=rpm
-install: bundle install
+install:
+-  gem install bundler
+-  bundle install
 script:
 - make
 deploy:
