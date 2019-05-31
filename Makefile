@@ -1,6 +1,6 @@
 
 PACKAGE_PRODUCT=consul
-PACKAGE_VERSION=1.0.0
+PACKAGE_VERSION=1.5.1
 ARCH="386 amd64 arm"
 
 default: package bintray
